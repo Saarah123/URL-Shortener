@@ -3,6 +3,7 @@ import './login.css';
 import { useState} from 'react';
 
 
+
  export const LogIn=()=> {
 
   const [user,setUser] = useState({
@@ -31,7 +32,7 @@ import { useState} from 'react';
 
             <input placeholder='Type here' name="email"  value={user.email}  onChange={handleInputs} ></input>
 
-           <button style={{marginLeft:"20px" , width:"50px", height:"20px", backgroundColor:"lavender"}}>GO</button>
+          <button style={{marginLeft:"20px" , width:"50px", height:"20px", backgroundColor:"lavender"}}>GO</button>
         </form>
     </div>
     </>
