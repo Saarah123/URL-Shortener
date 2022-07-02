@@ -1,7 +1,7 @@
 const express= require("express")
 const { append } = require("express/lib/response")
 const router= express.Router()
-const ShortnerUrl= require("../models/shortner.model")
+const ShortnerUrl= require("../models/shortener.model")
 const shortId= require("shortid")
 
 router.get("" ,async(req,res)=>{

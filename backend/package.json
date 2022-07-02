@@ -2,9 +2,9 @@
   "name": "assignments",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/server"
+    "start": "node src/index"
   },
   "author": "",
   "license": "ISC",

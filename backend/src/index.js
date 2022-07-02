@@ -1,6 +1,6 @@
 const express = require("express")
 const connect = require('./configs/db')
-const shortnerController= require("./controllers/shortner.controller")
+const shortnerController= require("./controllers/shortener.controller")
 const cors= require("cors")
 const app= express();
 app.use(express.json())
