@@ -12,19 +12,19 @@ Backend<br>
  Mongodb<br>
  Expressjs<br>
  Nodejs<br>
-<!--  
+
  ## Glimpses of website :
 
 <table>
   
-<!--   <tr>
-    <td><h4>Home</h4><img src="https://medium.com/@sakshirai727/url-shortener-1742523fef5e" alt="home" /></td>
-    <td><h4>product page</h4><img src="https://miro.medium.com/max/700/1*OqaQXoMGwH2yT6L2SoLeig.png " alt="mobiles" /></td>
-  </tr> -->
+<tr>
+    <td><h4>Home</h4><img src="https://miro.medium.com/max/700/1*-2a06y1paWRLyfxoAhlv-w.png" alt="home" /></td>
+    <td><h4>product page</h4><img src="https://miro.medium.com/max/700/1*OqaQXoMGwH2yT6L2SoLeig.png" alt="mobiles" /></td>
+  </tr> 
  
   
 </table>
-  -->
+ 
 <br />
 
 
