@@ -28,13 +28,13 @@ export const ShortUrl= () => {
       },[])
 
     const getUrl=()=>{
-         axios.get("http://localhost:8888/shortUrls").then((res)=>{
+         axios.get("https://db-short-url.herokuapp.com/shortUrls").then((res)=>{
            setData(res.data)
          })
     }
 
   const generateUrl=()=>{
-     axios.post("http://localhost:8888/shortUrls",text).then((res)=>{
+     axios.post("https://db-short-url.herokuapp.com/shortUrls",text).then((res)=>{
        alert("Url Generated Successfully!!")
         getUrl()
      }).catch((err)=>{
