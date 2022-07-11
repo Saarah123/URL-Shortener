@@ -72,7 +72,7 @@ export const ShortUrl= () => {
               <a href={row.fullUrl} target="_blank"><TableCell component="th" scope="row">
                 {row.fullUrl}
               </TableCell></a>
-           <a href={row.fullUrl} target="_blank">   <TableCell align="right">{row.shortUrl}</TableCell></a>
+           <a href={row.fullUrl} target="_blank">   <TableCell align="right">https://www.{row.shortUrl}</TableCell></a>
             
             </TableRow>
           ))}
